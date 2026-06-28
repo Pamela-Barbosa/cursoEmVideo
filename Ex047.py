@@ -1,7 +1,8 @@
 soma = 0
 
-for num in range(1,7):
-	if num % 2 == 0:
-		soma += num
+for numero in range(1,3):
+	numeros = int(input(f"Digite o {numero} número: ")) 
+	if numeros % 2 == 0:
+		soma += numeros
 
 print(f"A soma dos número pares deu: {soma}")
